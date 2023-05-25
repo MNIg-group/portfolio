@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #CCDDE9;
+    --second-color: #70A0C1;
+}
+body{
+    background-color: var(--color-bg);
+    color:#70A0C1 ;
+}
