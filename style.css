@@ -10,7 +10,40 @@
     --color-bg: #CCDDE9;
     --second-color: #70A0C1;
 }
-body{
+
+body {
     background-color: var(--color-bg);
-    color:#70A0C1 ;
+    color: #70A0C1;
 }
+
+header {
+    padding: 2px 30px;
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--second-color);
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+/* ...................................... Container ......................................  */
+.container {}
+
+
+/* ...................................... Footer .........................................  */
+footer {}
